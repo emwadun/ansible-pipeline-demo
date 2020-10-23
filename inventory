@@ -1,11 +1,11 @@
 [dev]
-ansible1.hl.local
+ansible1.hl.local ansible_user=bob
 
 [test]
 ansible2.hl.local
 
 [proxy]
-ansible3.hl.local
+ansible3.hl.local ansible_user=bob
 
 [prod]
 ansible4.hl.local
