@@ -1,0 +1,15 @@
+[dev]
+ansible1.hl.local
+
+[test]
+ansible2.hl.local
+
+[proxy]
+ansible3.hl.local
+
+[prod]
+ansible4.hl.local
+ansible5.hl.local
+
+[webservers]
+ansible5.hl.local
