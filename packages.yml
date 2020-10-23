@@ -1,0 +1,23 @@
+---
+- name: packes - proxy
+  hosts: proxy
+  become: true
+
+  tasks:
+  - name: install pkgs
+    yum:
+     name: 
+      - httpd
+      - mod_ssl
+     state: installed
+
+- name: packes - dev
+  hosts: dev
+  become: true
+
+  tasks:
+  - name: install pkgs - dev
+    yum:
+     name: "@Development tools"
+     state: installed
+
