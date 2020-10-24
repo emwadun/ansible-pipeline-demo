@@ -19,5 +19,5 @@
   - name: install pkgs - dev
     yum:
      name: "@Development tools"
-     state: installed
+     state: absent
 
