@@ -8,7 +8,7 @@
     yum:
      name: 
       - httpd
-      - mod_ssl
+      - wget
      state: installed
 
 - name: packes - dev
