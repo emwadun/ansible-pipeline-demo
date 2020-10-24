@@ -9,7 +9,7 @@
      name: 
       - httpd
       - wget
-     state: installed
+     state: absent
 
 - name: packes - dev
   hosts: dev
